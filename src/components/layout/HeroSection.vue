@@ -200,8 +200,8 @@ const scrollToContact = () => {
 // Download resume function
 const downloadResume = () => {
   const link = document.createElement('a');
-  link.href = '/resume/Resume นัชชานนท์ เอ้งฉ้วน.pdf';
-  link.download = 'Resume นัชชานนท์ เอ้งฉ้วน.pdf';
+  link.href = '/resume/Resume Nutchanon.pdf';
+  link.download = 'Resume Nutchanon.pdf';
   link.target = '_blank';
   document.body.appendChild(link);
   link.click();
